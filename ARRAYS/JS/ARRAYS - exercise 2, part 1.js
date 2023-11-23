@@ -1,24 +1,13 @@
 "use strict";
 
-// EXERCISE 2
+// EXERCISE 1
 
+let fruits = ["Apples", "Pear", "Orange"];
+// push a new value into the "copy"
+let shoppingCart = fruits;
+shoppingCart.push("Banana");
+// what's in fruits?
+alert( fruits.length ); // ?
 
-// a)
-let styles =["Jazz","Blues"]
-alert(styles)
-// b)   
-styles.push("Rock'N'Roll")
-alert(styles)
-// c)
-styles.splice(1,1, "Classical")
-alert(styles)
+// this code will show number 4.
 
-// d)
-
-styles.shift(0)
-alert(styles)
-
-// e)
-
-styles.push("Rap","Reggae")
-alert(styles)
