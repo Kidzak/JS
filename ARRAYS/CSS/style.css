@@ -1,5 +1,6 @@
-#pole {
+p {
     text-align: center;
-    font-size: 70px;
     font-family: sans-serif;
+    border: solid black 1px;
+    border-radius: 2px;
 }
